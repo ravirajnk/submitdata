@@ -43,7 +43,7 @@
     "department":"",
     "injuryNature":"",
     "bodyPartsInjured":[],
-    "incidentType":"",
+    "incidentType":""
   },
       "ownEmployeeInvolvedInNearmissDetails":{
     "employeeType": "",
