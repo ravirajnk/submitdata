@@ -1,5 +1,5 @@
-
 {
+data:{
 "SectorIds":12,
       "IsActive":true,
       "descriptionOfIncident":"data to bind",
@@ -73,4 +73,5 @@
       "ownerOrContractorNearmiss":"",
       "additionalMemberToEmail":[],
       "workingDepartment":""
+}
 }
