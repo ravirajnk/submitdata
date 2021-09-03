@@ -84,7 +84,7 @@
           "feet",
           "head"
         ],
-        "incidentType": "Restricted work day case"
+        "incidentType": ["Restricted work day case"]
       },
 	{
         "contractorEmployee": "Others",
@@ -102,7 +102,7 @@
           "back",
           "fingures"
         ],
-        "incidentType": "fatal"
+        "incidentType": ["fatal"]
       }
     ],
     "ownEmployeeInjuredDetails": [
