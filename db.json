@@ -28,83 +28,6 @@
     "environmentIncidentType": "Dust Release",
     "EnterpriseMasterId": 2,
     "FacilityMasterId": 3,
-"employeeInjuredDetails":[
-      {
-	"contractorEmployee": "Piyush ",
-	"contractorsName":"Akash",
-	"department":"GIC-6",
-        "employeeType": "Perment Employee",
-        "contractorsWorkforce": "",
-        "employeeName": "Akash Choudary",
-        "injuryNature": [
-          "fracture",
-          "strain",
-          "Heat burn"
-        ],
-        "bodyPartsInjured": [
-          "Head",
-          "ear"
-        ],
-        "incidentType": [
-          "fatal"
-        ]
-      },
-      {
-	"contractorEmployee": "Pavan Reddy",
-	"contractorsName":"Jay Prakash",
-	"department":"GIC-5",
-        "employeeType": "Temporary Employee",
-        "contractorsWorkforce": "GK Thakore",
-        "employeeName": "Rajesh",
-        "injuryNature": [
-          "fracture",
-          "Heat burn"
-        ],
-        "bodyPartsInjured": [
-          "legs",
-          "hand",
-          "back"
-        ],
-        "incidentType": [
-          "First aid"
-        ]
-      },
-    {
-        "contractorEmployee": "Contractors Employees",
-        "contractorsName": "G.s Sisodiya",
-        "department": "GIC-2 Poduction",
-	"employeeType": "Temporary Employee",
-        "contractorsWorkforce": "GK Thakore",
-        "employeeName": "Jayesh",
-        "injuryNature": [
-          "Mild",
-          "Rash"
-        ],
-        "bodyPartsInjured": [
-          "feet",
-          "head"
-        ],
-        "incidentType": ["Restricted work day case"]
-      },
-	{
-        "contractorEmployee": "Others",
-        "contractorsName": "Ritesh",
-        "department": "GIC-1",
-	"employeeType": "Temporary Employee",
-        "contractorsWorkforce": "GK Thakore",
-	"employeeName": "Nimesh",
-        "injuryNature": [
-          "Bruise",
-          "Impact",
-          "Crushing"
-        ],
-        "bodyPartsInjured": [
-          "back",
-          "fingures"
-        ],
-        "incidentType": ["fatal"]
-      }
-    ],
     "ownEmployeeInjuredDetails": [
       {
         "employeeType": "Perment Employee",
@@ -139,37 +62,6 @@
         "incidentType": [
           "First aid"
         ]
-      },
-{
-        "contractorEmployee": "Contractors Employees",
-        "contractorsName": "G.s Sisodiya",
-        "employeeName": "Jayesh",
-        "department": "GIC-2 Poduction",
-        "injuryNature": [
-          "Mild",
-          "Rash"
-        ],
-        "bodyPartsInjured": [
-          "feet",
-          "head"
-        ],
-        "incidentType": "Restricted work day case"
-      },
-      {
-        "contractorEmployee": "Others",
-        "contractorsName": "",
-        "employeeName": "Nimesh",
-        "department": "",
-        "injuryNature": [
-          "Bruise",
-          "Impact",
-          "Crushing"
-        ],
-        "bodyPartsInjured": [
-          "back",
-          "fingures"
-        ],
-        "incidentType": "fatal"
       }
     ],
     "otherEmployeeInjuredDetails": [
@@ -205,7 +97,7 @@
         "incidentType": "fatal"
       }
     ],
-    "ownEmployeeInvolvedInNearmissDetails": [
+    "employeeInvolvedInNearmissDetails": [
       {
         "employeeType": "Perment Employee",
         "contractorsWorkforce": "",
@@ -221,16 +113,15 @@
         ],
         "incidentType": [
           "fatal"
-        ]
+        ],
+	"contractorEmployee":"contractorEmployee 1",
+	"contractorsName":"contractorsName 1",
+	"department":"department 2"
       },
       {
         "employeeType": "Temporary Employee",
         "contractorsWorkforce": "GK Thakore",
         "employeeName": "Rajesh",
-        "injuryNature": [
-          "fracture",
-          "Heat burn"
-        ],
         "bodyPartsInjured": [
           "legs",
           "hand",
@@ -238,8 +129,44 @@
         ],
         "incidentType": [
           "First aid"
-        ]
+        ],
+	"contractorEmployee":"contractorEmployee 1",
+	"contractorsName":"contractorsName 1",
+	"department":"department 1"
+      },
+   {
+        "employeeType": "Other Employee",
+        "contractorsWorkforce": "GK Thakore",
+        "employeeName": "Rajesh",
+        "bodyPartsInjured": [
+          "legs",
+          "hand",
+          "back"
+        ],
+        "incidentType": [
+          "First aid"
+        ],
+	"contractorEmployee":"contractorEmployee 1",
+	"contractorsName":"contractorsName 1",
+	"department":"department 1"
+      },
+   {
+        "employeeType": "Contractors Employee",
+        "contractorsWorkforce": "GK Thakore",
+        "employeeName": "Rajesh",
+        "bodyPartsInjured": [
+          "legs",
+          "hand",
+          "back"
+        ],
+        "incidentType": [
+          "First aid"
+        ],
+	"contractorEmployee":"contractorEmployee 1",
+	"contractorsName":"contractorsName 1",
+	"department":"department 1"
       }
+	
     ],
     "otherEmployeeInvolvedInNearmissDetails": [
       {
