@@ -1,103 +1,247 @@
 {
-  "data": {
-    "SectorIds": 12,
-    "IsActive": true,
-    "descriptionOfIncident": "data to bind",
-    "immediateCorrection": "this is immediateCorrection",
-    "nearmiss": "",
-    "nonInjury": "",
-    "humanInjury": "",
-    "incidentClassification": "incidentClassificationssdfgfdgfsdg",
-    "locationDetails": "locationDetails",
-    "workingEquipment": "workingEquipment",
-    "reportingTime": "",
-    "incidentTime": "",
-    "joiningDate": "Thu Aug 05 2021 02:42:17 GMT+0530 (India Standard Time)",
-    "incidentDate": "Thu Aug 05 2021 02:42:17 GMT+0530 (India Standard Time)",
-    "irisRefNo": 12323,
-    "reportingOfficer": "this is reportingOfficer",
-    "inShift": "general",
-    "firstAidGivenInFactory": "this isfirst AidGivenInFactory",
-    "doctorOrHospitalReferred": " this is doctorOrHospitalReferred",
-    "witnessOne": "Rahul",
-    "witnessTwo": "Akash",
-    "witnessThree": "Sagar",
-    "escortName": "Jayesh",
-    "employeeNumber": 123,
-    "isFirstAid": true,
-    "environmentIncidentType": "Dust Release",
-    "EnterpriseMasterId": 2,
-    "FacilityMasterId": 3,
-    "ownEmployeeInjuredDetails": [
-      {
-        "employeeType": "Perment Employee",
-        "contractorsWorkforce": "",
-        "employeeName": "Akash Choudary",
-        "injuryNature": [
-          "fracture",
-          "strain",
-          "Heat burn"
-        ],
-        "bodyPartsInjured": [
-          "Head",
-          "ear"
-        ],
-        "incidentType": [
-          "fatal"
-        ]
-      },
-      {
-        "employeeType": "Temporary Employee",
-        "contractorsWorkforce": "GK Thakore",
-        "employeeName": "Rajesh",
-        "injuryNature": [
-          "fracture",
-          "Heat burn"
-        ],
-        "bodyPartsInjured": [
-          "legs",
-          "hand",
-          "back"
-        ],
-        "incidentType": [
-          "First aid"
-        ]
-      }
-    ],
-    "otherEmployeeInjuredDetails": [
-      {
-        "contractorEmployee": "Contractors Employees",
-        "contractorsName": "G.s Sisodiya",
-        "employeeName": "Jayesh",
-        "department": "GIC-2 Poduction",
-        "injuryNature": [
-          "Mild",
-          "Rash"
-        ],
-        "bodyPartsInjured": [
-          "feet",
-          "head"
-        ],
-        "incidentType": "Restricted work day case"
-      },
-      {
-        "contractorEmployee": "Others",
-        "contractorsName": "",
-        "employeeName": "Nimesh",
-        "department": "",
-        "injuryNature": [
-          "Bruise",
-          "Impact",
-          "Crushing"
-        ],
-        "bodyPartsInjured": [
-          "back",
-          "fingures"
-        ],
-        "incidentType": "fatal"
-      }
-    ],
-    "employeeInvolvedInNearmissDetails": [
+   "data":{
+      "SectorIds":12,
+      "IsActive":true,
+      "descriptionOfIncident":"data to bind",
+      "immediateCorrection":"this is immediateCorrection",
+      "nearmiss":"",
+      "nonInjury":"",
+      "humanInjury":"",
+      "incidentClassification":"incidentClassificationssdfgfdgfsdg",
+      "locationDetails":"locationDetails",
+      "workingEquipment":"workingEquipment",
+      "reportingTime":"",
+      "incidentTime":"",
+      "joiningDate":"Thu Aug 05 2021 02:42:17 GMT+0530 (India Standard Time)",
+      "incidentDate":"Thu Aug 05 2021 02:42:17 GMT+0530 (India Standard Time)",
+      "irisRefNo":12323,
+      "reportingOfficer":"this is reportingOfficer",
+      "inShift":"general",
+      "firstAidGivenInFactory":"this isfirst AidGivenInFactory",
+      "doctorOrHospitalReferred":" this is doctorOrHospitalReferred",
+      "witnessOne":"Rahul",
+      "witnessTwo":"Akash",
+      "witnessThree":"Sagar",
+      "escortName":"Jayesh",
+      "employeeNumber":123,
+      "isFirstAid":true,
+      "environmentIncidentType":"Dust Release",
+      "EnterpriseMasterId":2,
+      "FacilityMasterId":3,
+      "employeeInjuredDetails":[
+         {
+            "contractorEmployee":"Piyush ",
+            "contractorsName":"Akash",
+            "department":"GIC-6",
+            "employeeType":"Perment Employee",
+            "contractorsWorkforce":"",
+            "employeeName":"Akash Choudary",
+            "injuryNature":[
+               "fracture",
+               "strain",
+               "Heat burn"
+            ],
+            "bodyPartsInjured":[
+               "Head",
+               "ear"
+            ],
+            "incidentType":[
+               "fatal"
+            ]
+         },
+         {
+            "contractorEmployee":"Pavan Reddy",
+            "contractorsName":"Jay Prakash",
+            "department":"GIC-5",
+            "employeeType":"Temporary Employee",
+            "contractorsWorkforce":"GK Thakore",
+            "employeeName":"Rajesh",
+            "injuryNature":[
+               "fracture",
+               "Heat burn"
+            ],
+            "bodyPartsInjured":[
+               "legs",
+               "hand",
+               "back"
+            ],
+            "incidentType":[
+               "First aid"
+            ]
+         },
+         {
+            "contractorEmployee":"Contractors Employees",
+            "contractorsName":"G.s Sisodiya",
+            "department":"GIC-2 Poduction",
+            "employeeType":"Temporary Employee",
+            "contractorsWorkforce":"GK Thakore",
+            "employeeName":"Jayesh",
+            "injuryNature":[
+               "Mild",
+               "Rash"
+            ],
+            "bodyPartsInjured":[
+               "feet",
+               "head"
+            ],
+            "incidentType":"Restricted work day case"
+         },
+         {
+            "contractorEmployee":"Others",
+            "contractorsName":"Ritesh",
+            "department":"GIC-1",
+            "employeeType":"Temporary Employee",
+            "contractorsWorkforce":"GK Thakore",
+            "employeeName":"Nimesh",
+            "injuryNature":[
+               "Bruise",
+               "Impact",
+               "Crushing"
+            ],
+            "bodyPartsInjured":[
+               "back",
+               "fingures"
+            ],
+            "incidentType":"fatal"
+         }
+      ],
+      "ownEmployeeInjuredDetails":[
+         {
+            "employeeType":"Perment Employee",
+            "contractorsWorkforce":"",
+            "employeeName":"Akash Choudary",
+            "injuryNature":[
+               "fracture",
+               "strain",
+               "Heat burn"
+            ],
+            "bodyPartsInjured":[
+               "Head",
+               "ear"
+            ],
+            "incidentType":[
+               "fatal"
+            ]
+         },
+         {
+            "employeeType":"Temporary Employee",
+            "contractorsWorkforce":"GK Thakore",
+            "employeeName":"Rajesh",
+            "injuryNature":[
+               "fracture",
+               "Heat burn"
+            ],
+            "bodyPartsInjured":[
+               "legs",
+               "hand",
+               "back"
+            ],
+            "incidentType":[
+               "First aid"
+            ]
+         },
+         {
+            "contractorEmployee":"Contractors Employees",
+            "contractorsName":"G.s Sisodiya",
+            "employeeName":"Jayesh",
+            "department":"GIC-2 Poduction",
+            "injuryNature":[
+               "Mild",
+               "Rash"
+            ],
+            "bodyPartsInjured":[
+               "feet",
+               "head"
+            ],
+            "incidentType":"Restricted work day case"
+         },
+         {
+            "contractorEmployee":"Others",
+            "contractorsName":"",
+            "employeeName":"Nimesh",
+            "department":"",
+            "injuryNature":[
+               "Bruise",
+               "Impact",
+               "Crushing"
+            ],
+            "bodyPartsInjured":[
+               "back",
+               "fingures"
+            ],
+            "incidentType":"fatal"
+         }
+      ],
+      "otherEmployeeInjuredDetails":[
+         {
+            "contractorEmployee":"Contractors Employees",
+            "contractorsName":"G.s Sisodiya",
+            "employeeName":"Jayesh",
+            "department":"GIC-2 Poduction",
+            "injuryNature":[
+               "Mild",
+               "Rash"
+            ],
+            "bodyPartsInjured":[
+               "feet",
+               "head"
+            ],
+            "incidentType":"Restricted work day case"
+         },
+         {
+            "contractorEmployee":"Others",
+            "contractorsName":"",
+            "employeeName":"Nimesh",
+            "department":"",
+            "injuryNature":[
+               "Bruise",
+               "Impact",
+               "Crushing"
+            ],
+            "bodyPartsInjured":[
+               "back",
+               "fingures"
+            ],
+            "incidentType":"fatal"
+         }
+      ],
+      "ownEmployeeInvolvedInNearmissDetails":[
+         {
+            "employeeType":"Perment Employee",
+            "contractorsWorkforce":"",
+            "employeeName":"Akash Choudary",
+            "injuryNature":[
+               "fracture",
+               "strain",
+               "Heat burn"
+            ],
+            "bodyPartsInjured":[
+               "Head",
+               "ear"
+            ],
+            "incidentType":[
+               "fatal"
+            ]
+         },
+         {
+            "employeeType":"Temporary Employee",
+            "contractorsWorkforce":"GK Thakore",
+            "employeeName":"Rajesh",
+            "injuryNature":[
+               "fracture",
+               "Heat burn"
+            ],
+            "bodyPartsInjured":[
+               "legs",
+               "hand",
+               "back"
+            ],
+            "incidentType":[
+               "First aid"
+            ]
+         }
+      ],
+"employeeInvolvedInNearmissDetails": [
       {
         "employeeType": "Perment Employee",
         "contractorsWorkforce": "",
@@ -168,60 +312,60 @@
       }
 	
     ],
-    "otherEmployeeInvolvedInNearmissDetails": [
-      {
-        "contractorEmployee": "Contractors Employees",
-        "contractorsName": "G.s Sisodiya",
-        "employeeName": "Jayesh",
-        "department": "GIC-2 Poduction",
-        "injuryNature": [
-          "Mild",
-          "Rash"
-        ],
-        "bodyPartsInjured": [
-          "feet",
-          "head"
-        ],
-        "incidentType": "Restricted work day case"
-      },
-      {
-        "contractorEmployee": "Others",
-        "contractorsName": "",
-        "employeeName": "Nimesh",
-        "department": "",
-        "injuryNature": [
-          "Bruise",
-          "Impact",
-          "Crushing"
-        ],
-        "bodyPartsInjured": [
-          "back",
-          "fingures"
-        ],
-        "incidentType": "fatal"
-      }
-    ],
-    "nameOfEquipmentandMaterialDemage": [
-      {
-        "nameOfMaterialEquipment": "nameOfMaterialEquipment1",
-        "extendOfDamage": "extendOfDamage2",
-        "remarks": "remarks1"
-      },
-      {
-        "nameOfMaterialEquipment": "nameOfMaterialEquipment2",
-        "extendOfDamage": "extendOfDamage2",
-        "remarks": "remarks2"
-      }
-    ],
-    "injuryType": "",
-    "isPSMincident": "No",
-    "personInvolveInNearMiss": "Self",
-    "ownerOrContractorNearmiss": "",
-    "additionalMemberToEmail": [
-      "rakesj@gmail.com",
-      "Akshay@gmil.com"
-    ],
-    "incidentCause": "Fire",
-    "workingDepartment": "GIC-1"
-  }
+      "otherEmployeeInvolvedInNearmissDetails":[
+         {
+            "contractorEmployee":"Contractors Employees",
+            "contractorsName":"G.s Sisodiya",
+            "employeeName":"Jayesh",
+            "department":"GIC-2 Poduction",
+            "injuryNature":[
+               "Mild",
+               "Rash"
+            ],
+            "bodyPartsInjured":[
+               "feet",
+               "head"
+            ],
+            "incidentType":"Restricted work day case"
+         },
+         {
+            "contractorEmployee":"Others",
+            "contractorsName":"",
+            "employeeName":"Nimesh",
+            "department":"",
+            "injuryNature":[
+               "Bruise",
+               "Impact",
+               "Crushing"
+            ],
+            "bodyPartsInjured":[
+               "back",
+               "fingures"
+            ],
+            "incidentType":"fatal"
+         }
+      ],
+      "nameOfEquipmentandMaterialDemage":[
+         {
+            "nameOfMaterialEquipment":"nameOfMaterialEquipment1",
+            "extendOfDamage":"extendOfDamage2",
+            "remarks":"remarks1"
+         },
+         {
+            "nameOfMaterialEquipment":"nameOfMaterialEquipment2",
+            "extendOfDamage":"extendOfDamage2",
+            "remarks":"remarks2"
+         }
+      ],
+      "injuryType":"",
+      "isPSMincident":"No",
+      "personInvolveInNearMiss":"Self",
+      "ownerOrContractorNearmiss":"",
+      "additionalMemberToEmail":[
+         "rakesj@gmail.com",
+         "Akshay@gmil.com"
+      ],
+      "incidentCause":"Fire",
+      "workingDepartment":"GIC-1"
+   }
 }
