@@ -180,7 +180,7 @@
       }
 	
     ],
-      "nameOfEquipmentandMaterialDemage":[
+      "nameOfEquipmentandMaterialDamage":[
          {
             "nameOfMaterialEquipment":"nameOfMaterialEquipment1",
             "extendOfDamage":"extendOfDamage2",
