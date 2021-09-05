@@ -124,7 +124,8 @@
         ],
 	"contractorEmployee":"contractorEmployee 1",
 	"contractorsName":"contractorsName 1",
-	"department":"department 2"
+	"department":"department 2",
+	"designation":"designation 1"
       },
       {
         "employeeType": "Temporary Employee",
@@ -140,7 +141,8 @@
         ],
 	"contractorEmployee":"contractorEmployee 1",
 	"contractorsName":"contractorsName 1",
-	"department":"department 1"
+	"department":"department 1",
+	"designation":"designation 2"
       },
    {
         "employeeType": "Other Employee",
@@ -156,7 +158,8 @@
         ],
 	"contractorEmployee":"contractorEmployee 1",
 	"contractorsName":"contractorsName 1",
-	"department":"department 1"
+	"department":"department 1",
+	"designation":"designation 3"
       },
    {
         "employeeType": "Contractors Employee",
@@ -172,7 +175,8 @@
         ],
 	"contractorEmployee":"contractorEmployee 1",
 	"contractorsName":"contractorsName 1",
-	"department":"department 1"
+	"department":"department 1",
+	"designation":"designation 4"
       }
 	
     ],
